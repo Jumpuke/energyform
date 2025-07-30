@@ -1,21 +1,15 @@
 export default function Home() {
   const drinks = [
     {
-      brand: "Butched Barber",
-      flavor: "Peach Mango Green Tea",
+      brand: "Joshua Muma",
+      flavor: "the irreversible cut",
       ingredients: [
         { victim: "Joshua Muma (Post-Haircut)", Barber: "WILL BE FOUND", - "was not intended to be this bad fo a cut" },
         
       ],
     },
     {
-      brand: "Monster",
-      flavor: "Original",
-      ingredients: [
-        { name: "Caffeine (160mg)", benefit: "Energy boost", harm: "Insomnia, jitters" },
-        { name: "Taurine", benefit: "Neuroprotection", harm: "Possible hypertension" },
-        { name: "Ginseng", benefit: "Cognitive enhancement", harm: "May cause headaches" },
-        { name: "Glucose", benefit: "Immediate energy", harm: "Blood sugar spike" },
+    
       ],
     },
   ];
