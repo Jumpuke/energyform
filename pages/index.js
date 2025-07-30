@@ -1,13 +1,11 @@
 export default function Home() {
   const drinks = [
     {
-      brand: "Celsius",
+      brand: "Butched Barber",
       flavor: "Peach Mango Green Tea",
       ingredients: [
-        { name: "Caffeine (200mg)", benefit: "Energy boost", harm: "Anxiety, jitteriness" },
-        { name: "Green Tea Extract", benefit: "Antioxidants", harm: "May affect iron absorption" },
-        { name: "Guarana", benefit: "Increased alertness", harm: "Increased heart rate" },
-        { name: "Ginger Root", benefit: "Digestion aid", harm: "Heartburn in sensitive individuals" },
+        { victim: "Joshua Muma (Post-Haircut)", Barber: "WILL BE FOUND", - "was not intended to be this bad fo a cut" },
+        
       ],
     },
     {
