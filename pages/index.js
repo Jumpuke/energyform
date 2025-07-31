@@ -2,16 +2,36 @@ export default function Home() {
   const drinks = [
     {
       brand: "Joshua Muma",
-      flavor: "the irreversible cut",
+      flavor: "The Irreversible Cut",
       ingredients: [
-        { victim: "Joshua Muma (Post-Haircut)", Barber: "WILL BE FOUND", - "was not intended to be this bad fo a cut" },
-        
-      ],
-    },
- 
-    
-      ],
-    },
+        {
+          victim: "Joshua Muma (Post-Haircut)",
+          barber: "WILL BE FOUND",
+          note: "Was not intended to be this bad of a cut"
+        }
+      ]
+    }
+  ];
+
+  return (
+    <div>
+      <h1>Energy Drink Database</h1>
+      {drinks.map((drink, index) => (
+        <div key={index}>
+          <h2>{drink.brand} - {drink.flavor}</h2>
+          <ul>
+            {drink.ingredients.map((item, i) => (
+              <li key={i}>
+                Victim: {item.victim}, Barber: {item.barber}, Note: {item.note}
+              </li>
+            ))}
+          </ul>
+        </div>
+      ))}
+    </div>
+  );
+}
+
 
   return (
     <main className="min-h-screen bg-white text-gray-900 px-6 py-10">
